@@ -5,6 +5,7 @@ library(tidyr)
 library(rJava)
 library(XLConnect)
 
+#Must change 'setwd()' and 'path()' to the directory where all spreadsheets output by SpinalMod are located. This script will check all files and folders within the working directory.
 setwd("E:/Data/Cord_Prep_New/")
 path <- "E:/Data/Cord_Prep_New/"
 pattern1 = c(".xls", ".xlsx")
