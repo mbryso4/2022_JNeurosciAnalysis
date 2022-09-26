@@ -3,6 +3,7 @@ library(dplyr)
 library(tidyr)
 library(gtools)
 library(readxl)
+#Must change this to location of saved "Collated_data.xlsx" file
 Collated_data <- read_excel("E:/Data/Cord_Prep_New/Collated_data.xlsx")
 #Collated_data <- read_excel("/E/My Passport/Data/Collated_data.xlsx")
 
